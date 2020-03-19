@@ -1,342 +1,148 @@
 body {
-    top: 0px;
-    left: 0px;
     width: 1280px;
     height: 2717px;
     background: #F8FFFE 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-/* Sidebar 'about', 'coding projects', 'music', 'resume' and 'contact 
-and logo buttons */
+/* |--sidebar--| */
 .sidebar {
-top: 0px;
-left: 0px;
-width: 251px;
-height: 2717px;
-background: #0045FF 0% 0% no-repeat padding-box;
-opacity: 1;
-float: left;
-position: fixed;
-}
-/* .document {
-    margin-right: 105px;
-    width: 950px;
-} */
-#about {
-top: 207px;
-left: 48px;
-width: 158px;
-height: 27px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1;
-text-decoration: none;
-};
-
-#projects {
-top: 278px;
-left: 46px;
-width: 158px;
-height: 27px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 0.5;
-text-decoration: none;
-}
-
-#music {
-top: 349px;
-left: 46px;
-width: 158px;
-height: 27px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 0.5;
-text-decoration: none;
-}
-
-#resume {
-top: 420px;
-left: 46px;
-width: 158px;
-height: 27px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 0.5; 
-text-decoration: none;
-}
-
-#contact {
-top: 491px;
-left: 46px;
-width: 158px;
-height: 27px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 0.5;
-text-decoration: none;
-}
-.logos #scloud {
-top: 739px;
-left: 67px;
-width: 24px;
-height: 24px;
-background: transparent url('assets/images/Path 5.png') 0% 0% no-repeat padding-box;
-opacity: 0.5;
-}
-.logos #lin {
-top: 739px;
-left: 113px;
-width: 24px;
-height: 24px;
-background: transparent url('assets/images/Path 1.png') 0% 0% no-repeat padding-box;
-opacity: 0.5;
-}
-.logos #ghub {
-top: 739px;
-left: 159px;
-width: 24px;
-height: 24px;
-background: transparent url('assets/images/Path 2.png') 0% 0% no-repeat padding-box;
-opacity: 0.5; 
-};
-
-/* first poage */
-.fstpg {
-    top: 176px;
-    width: 746px;
-    height: 487px;
-    /* clear: both; */
-}
-.hello {
-top: 176px;
-left: 394px;
-width: 365px;
-height: 406px;
-text-align: left;
-letter-spacing: 0;
-opacity: 1;
-    /* clear: both; */
-}
-.hello h1 {
     top: 0px;
     left: 0px;
-    width: 214px;
-    height: 120px;
-    text-align: left;
-    font: 500 100px/24px;
-    letter-spacing: 0;
-    color: #0045FF; 
-    font-size: 100px;
-}
-.hello p {
-top: 264px;
-left: 0px;
-width: 323px;
-height: 24px;
-text-align: left;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070;   
-}
-#fstpg button {
-    top: 603px;
-    left: 394px;
-    width: 200px;
-    height: 60px;
+    width: 251px;
+    height: 2717px;
     background: #0045FF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 4px 40px #00000033;
-    border-radius: 30px;
     opacity: 1;
+    float: left;
+    position: fixed;
+    text-align: center;
 }
-#hire {
-top: 621px;
-left: 399px;
-width: 190px;
-height: 24px;
-text-align: center;
-font: 500 20px/24px ;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1;
+.info {
+    margin-top: 176px;
+    height: 907px;
+    width: 158;
+    letter-spacing: 20px;
+    /* position: fixed; */
+    text-align: center;
+    position: relative;
 }
-#profimg {
-top: 176px;
-left: 775px;
-width: 365px;
-height: 487px;
-background: transparent url('assets/images/IMG_8246.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-float: right;
+.info a {
+    left: 48px;
+    height: 27px;
+    text-align: center;
+    font: 500 20px/24px;
+    letter-spacing: 0;
+    line-height: 2.0;
+    color:#FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    display: list-item;
+    padding-top: 20px;
 }
-
-/* project page */
-.cprojects {
-top: 800px;
-left: 394px;
-width: 365px;
-height: 230px;
-text-align: left;
-letter-spacing: 0;
-opacity: 1;
+#about {
+    top: 207px;
 }
-.cprojects h1 {
-top: 72px;
-left: 0px;
-width: 226px;
-height: 72px;
-text-align: left;
-font: 500 60px/24px;
-letter-spacing: 0;
-color: #0045FF;
+#projects {
+    top: 278px;
 }
-.cprojects p {
-top: 168px;
-left: 0px;
-width: 263px;
-height: 24px;
-text-align: left;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070;
-}
-/* projects */
-#pjcta {
-top: 1074px;
-left: 394px;
-width: 238px;
-height: 238px;
-background: #0045FF 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-#pjctb {
-top: 1074px;
-left: 648px;
-width: 238px;
-height: 238px;
-background: transparent url('assets/images/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-#pjctc {
-top: 1074px;
-left: 902px;
-width: 238px;
-height: 238px;
-background: transparent url('assets/images/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
-opacity: 1;  
-}
-#pjctd {
-top: 1328px;
-left: 394px;
-width: 238px;
-height: 238px;
-background: transparent url('assets/images/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-#pjcte {
-top: 1328px;
-left: 648px;
-width: 238px;
-height: 238px;
-background: transparent url('assets/images/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
-opacity: 1;    
-}
-#pjctf {
-top: 1328px;
-left: 902px;
-width: 238px;
-height: 238px;
-background: #0045FF 0% 0% no-repeat padding-box;
-opacity: 0.54;
-};
- 
-/* Music page */
-.mprojects {
-top: 1684px;
-left: 394px;
-width: 365px;
-height: 164px;
-text-align: left;
-letter-spacing: 0;
-opacity: 1; 
-}
-.mprojects h1 {
-top: 0px;
-left: 0px;
-width: 162px;
-height: 72px;
-text-align: left;
-font: 500 60px/24px;
-letter-spacing: 0;
-color: #0045FF;
-font-family: 60px;
-}
-.mprojects p {
-top: 120px;
-left: 0px;
-width: 294px;
-height: 24px;
-text-align: left;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070;
-}
-#sptfy {
-top: 1864px;
-left: 394px;
-width: 746px;
-height: 449px;
-background: transparent url('assets/images/Screen Shot 2020-03-14 at 11.10.57 PM.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-/* left: 394px; */
-.cntme {
-top: 2433px;
-left: 394px;
-width: 746px;
-height: 169px;
-text-align: left;
-letter-spacing: 0;
-opacity: 1;
-}
-.cntinfo h1 {
-top: 0px;
-left: 0px;
-width: 318px;
-height: 72px;
-text-align: left;
-font: 500 60px/24px;
-letter-spacing: 0;
-color: #0045FF;  
-}
-.cntinfo p {
-top: 120px;
-left: 0px;
-width: 342px;
-height: 24px;
-text-align: left;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070; 
+#music {
+    top: 349px;
 }
 #resume {
-top: 2476px;
-left: 907px;
-width: 190px;
-height: 24px;
-text-align: center;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1; 
-};
+    top: 420px;
+}
+#contact {
+    top: 491px;
+}
+.logos {
+    top: 739px;
+    width: 158px;
+}
+/* |----end of sidebar----| */
+
+.document {
+    left: 394px;
+    width: 1029px;
+    clear: right;
+}
+
+.fstpg {
+    top: 176px;
+    left: 394px;
+    width: 746px;
+    height: 487px;
+    float: right;
+}
+
+.hello {
+    top: 176px;
+    left: 394px;
+    width: 365px;
+    height: 406px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.sndpg {
+    top: 800px;
+    left: 394px;
+    width: 746px;
+    height: 906px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+    float: right;
+}
+
+.cprojects {
+    top: 1074px;
+    width: 746px;
+}
+
+.allpjcts {
+    top: 1074px;
+    left: 394px;
+    width: 746px;
+    height: 492px;
+    /* 16px padding */
+}
+
+.thdpge {
+    top: 1684px;
+    left: 394px;
+    width: 746px;
+    height: 906px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+    float: right;
+}
+
+.mprojects {
+    top:0px;
+    left: 394px;
+    width: 365px;
+    height: 164px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.cntme {
+   top: 2433px;
+   left: 394px;
+   height: 169px;
+   width: 746px;
+   text-align: left;
+   letter-spacing: 0;
+   opacity: 1; 
+}
+
+.cntinfo {
+    top: 0px;
+    width:365px;
+    height: 169px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
