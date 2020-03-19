@@ -330,38 +330,76 @@ body {
 }
 
 .mprojects p {
-margin-top: -25px;
-left: 0px;
-width: 263px;
-height: 24px;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070;
+    margin-top: -25px;
+    left: 0px;
+    width: 263px;
+    height: 24px;
+    font: 500 20px/24px;
+    letter-spacing: 0;
+    color: #707070;
 }
+
 #sptfy {
     width: 746;
 }
+
 #spt {
     padding-right: 30px;
 }
+
 /* |----end of third 'page'----| */
+
+/* |----start of fourth 'page'----| */
+
 .cntme {
-    top: 2433px;
-    left: 394px;
-    height: 169px;
-    width: 746px;
-    text-align: left;
-    letter-spacing: 0;
-    opacity: 1;
+margin-top: 0px;
+left: 394px;
+width: 746px;
+height: 169px;
+text-align: left;
+letter-spacing: 0;
+opacity: 1;
 }
-
 .cntinfo {
-    top: 0px;
-    width: 365px;
-    height: 169px;
-    text-align: left;
-    letter-spacing: 0;
-    opacity: 1;
+width: 365px;
+height: 169px;
+float: left;
 }
-
-;
+.cntinfo h1 {
+font: 500 60px/24px;
+letter-spacing: 0;
+color: #0045FF;
+font-size: 60px;
+}
+.cntinfo p {
+margin-top: -25px;
+font: 500 20px/24px;
+letter-spacing: 0;
+color: #707070;
+font-size: 18px;
+}
+.cntme button {
+    margin-top: 130px;
+    margin-left: 0px;
+    padding: 10px;
+}
+#rsme {
+width: 120px;
+height: 60px;
+background: #0045FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 40px #00000033;
+border-radius: 30px;
+opacity: 1;
+color: white;
+font-size: 20px;
+}
+#mail {
+width: 120px;
+height: 60px;
+background: #0045FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 40px #00000033;
+border-radius: 30px;
+opacity: 1;
+color: white;
+font-size: 20px;
+}
