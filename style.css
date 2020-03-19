@@ -293,6 +293,10 @@ body {
     background: transparent url('assetsimages/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
 }
 
+/* |----end of 'page' two----| */
+
+/* |----start of 'page' three----| */
+
 .thdpge {
     top: 1684px;
     left: 394px;
@@ -314,6 +318,33 @@ body {
     opacity: 1;
 }
 
+.mprojects h1 {
+    top: 0px;
+    left: 0px;
+    width: 162px;
+    height: 72px;
+    font: 500 60px/24px;
+    letter-spacing: 0;
+    color: #0045FF;
+    font-size: 60px;
+}
+
+.mprojects p {
+margin-top: -25px;
+left: 0px;
+width: 263px;
+height: 24px;
+font: 500 20px/24px;
+letter-spacing: 0;
+color: #707070;
+}
+#sptfy {
+    width: 746;
+}
+#spt {
+    padding-right: 30px;
+}
+/* |----end of third 'page'----| */
 .cntme {
     top: 2433px;
     left: 394px;
