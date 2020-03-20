@@ -382,6 +382,7 @@ font-size: 18px;
     margin-top: 130px;
     margin-left: 0px;
     padding: 10px;
+    text-decoration: none;
 }
 #rsme {
 width: 120px;
@@ -393,6 +394,10 @@ opacity: 1;
 color: white;
 font-size: 20px;
 }
+#ctxt {
+    text-decoration: none;
+    color: white;
+}
 #mail {
 width: 120px;
 height: 60px;
@@ -402,4 +407,8 @@ border-radius: 30px;
 opacity: 1;
 color: white;
 font-size: 20px;
+}
+#mtxt {
+    text-decoration: none;
+    color: white;
 }
