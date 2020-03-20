@@ -188,6 +188,10 @@ body {
     opacity: 1;
     font-size: 20px;
 }
+#htxt {
+    text-decoration: none;
+    color: white;
+}
 
 /* |----end 'first' page----| */
 
