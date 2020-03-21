@@ -133,8 +133,9 @@ body {
     right: 0px;
     width: 365px;
     height: 487px;
-    background: transparent url('assets/images/IMG_8246.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: transparent url('assets/images/prof.png') 30% 20% no-repeat padding-box;
+    background-size: contain;
+    opacity: 0.5;
     float: right;
     border-radius: 4px;
 }
@@ -188,6 +189,7 @@ body {
     opacity: 1;
     font-size: 20px;
 }
+
 #htxt {
     text-decoration: none;
     color: white;
@@ -206,6 +208,7 @@ body {
     letter-spacing: 0;
     opacity: 1;
     float: right;
+    text-decoration: none;
 }
 
 .cprojects {
@@ -244,6 +247,11 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
+    text-decoration: none;
+}
+
+.allpjcts :hover {
+    opacity: 0.6;
 }
 
 #pjcta {
@@ -273,18 +281,43 @@ body {
     opacity: 1;
 }
 
+#pjctctxt {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
 #pjctd {
     /* top: 1328px;
     left: 394px; */
     width: 238px;
     height: 238px;
-    background: transparent url('assets/images/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
+    background: transparent url('assets/images/tim.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
     opacity: 1;
+    text-decoration: none;
+    color: blue;
+}
+
+#pjctdtxt {
+    text-decoration: none;
+    color: rgb(8, 44, 160);
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+#pjctdtxt h1 {
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 1;
+    text-underline-position: none;
 }
 
 #pjcte {
-    /* top: 1328px;
-    left: 648px; */
+    top: 1328px;
+    left: 648px;
     width: 238px;
     height: 238px;
     background: transparent url('assetsimages/Goldfish_FreeUse.png') 0% 0% no-repeat padding-box;
@@ -356,63 +389,121 @@ body {
 /* |----start of fourth 'page'----| */
 
 .cntme {
-margin-top: 0px;
-left: 394px;
-width: 746px;
-height: 169px;
-text-align: left;
-letter-spacing: 0;
-opacity: 1;
+    margin-top: 0px;
+    left: 394px;
+    width: 746px;
+    height: 169px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
 }
+
 .cntinfo {
-width: 365px;
-height: 169px;
-float: left;
+    width: 365px;
+    height: 169px;
+    float: left;
 }
+
 .cntinfo h1 {
-font: 500 60px/24px;
-letter-spacing: 0;
-color: #0045FF;
-font-size: 60px;
+    font: 500 60px/24px;
+    letter-spacing: 0;
+    color: #0045FF;
+    font-size: 60px;
 }
+
 .cntinfo p {
-margin-top: -25px;
-font: 500 20px/24px;
-letter-spacing: 0;
-color: #707070;
-font-size: 18px;
+    margin-top: -25px;
+    font: 500 20px/24px;
+    letter-spacing: 0;
+    color: #707070;
+    font-size: 18px;
 }
+
 .cntme button {
     margin-top: 130px;
     margin-left: 0px;
     padding: 10px;
     text-decoration: none;
 }
+
 #rsme {
-width: 120px;
-height: 60px;
-background: #0045FF 0% 0% no-repeat padding-box;
-box-shadow: 0px 4px 40px #00000033;
-border-radius: 30px;
-opacity: 1;
-color: white;
-font-size: 20px;
+    width: 120px;
+    height: 60px;
+    background: #0045FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 40px #00000033;
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
 }
+
 #ctxt {
     text-decoration: none;
     color: white;
 }
+
 #mail {
-width: 120px;
-height: 60px;
-background: #0045FF 0% 0% no-repeat padding-box;
-box-shadow: 0px 4px 40px #00000033;
-border-radius: 30px;
-opacity: 1;
-color: white;
-font-size: 20px;
+    width: 120px;
+    height: 60px;
+    background: #0045FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 40px #00000033;
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
 }
+
 #mtxt {
     text-decoration: none;
     color: white;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* @media only screen and (max-width: 600px) {
+
+} */
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 600px;
+        height: 1358px;
+    }
+    .sidebar {
+        top: 0px;
+        width: 600px;
+        height: 100px;
+        position: fixed;
+    }
+    .info {
+        margin-top: 40px;
+    }
+    .info a {
+        display: inline;
+        text-align: center;
+        /* margin: auto; */
+    }
+    .document {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        width: 600px;
+    }
+    #profimg {
+        height: 200px;
+        margin-top: 60px;
+        margin-right: 60px;
+    }
+    #first button {
+        margin-left: 170px;
+    }
+}
+
+;
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* @media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
