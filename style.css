@@ -481,13 +481,16 @@ body {
     .info a {
         display: inline;
         text-align: center;
-        /* margin: auto; */
     }
     .document {
         display: flex;
         flex-direction: column;
         padding-top: 25px;
+        height: 1258px;
         width: 600px;
+    }
+    .fstpg {
+        margin: auto;
     }
     #profimg {
         height: 200px;
@@ -497,9 +500,50 @@ body {
     #first button {
         margin-left: 170px;
     }
+    .sndpg {
+        margin: auto;
+        padding-top: 100px;
+    }
+    .cprojects {
+        margin-top: -90px;
+    }
+    .allpjcts {
+        grid-gap: 30px;
+        width: 300px;
+    }
+    #pjcta {
+        width: 150px;
+        height: 150px;
+    }
+    #pjctb {
+        width: 150px;
+        height: 150px;
+    }
+    #pjctc {
+        width: 150px;
+        height: 150px;
+    }
+    #pjctd {
+        width: 150px;
+        height: 150px;
+    }
+    .mprojects {
+        margin-top: -100px;
+    }
+    #sptfy {
+        width: 350px;
+    }
+    .cntme {
+        width: 600px;
+        text-align: center;
+    }
+    
+    .cntme button {
+        margin-top: 50px;
+    }
 }
 
-;
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 /* @media only screen and (min-width: 768px) {...}
