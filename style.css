@@ -21,6 +21,10 @@ body {
     margin-left: 50px;
 }
 
+.navbar a:hover {
+    color: pink;
+}
+
 .website {
     margin-top: 0px;
     margin-left: 36px;
